@@ -8,3 +8,14 @@ This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/
 <a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
 
 <!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+
+// We first check if "num" is equal to zero. If that is not the case then it checks wheter "num" is greater then zero. There 
+// you have it. This is also my first contribution to github as a newb.so cool
+
+function checkSign(num) {
+  
+  return (num == 0) ? "zero" : (num > 0) ? "positive" : "negative";
+
+}
+
+checkSign(10);
